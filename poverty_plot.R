@@ -1,5 +1,3 @@
-setwd("/Users/christinezhang/Desktop")
-
 library(ggplot2)
 library(foreign)
 library(RColorBrewer)
@@ -24,6 +22,4 @@ for (i in 1:length(year)) {
   print(formatted)
   dev.off()
 }
-
-
 
